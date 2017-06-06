@@ -430,13 +430,6 @@ a.gitment-editor-footer-tip:hover {
   float: right;
 }
 
-.gitment-footer-container {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  text-align: right;
-  font-size: 12px;
-}
-
 /*
  * Markdown CSS
  * Copied from https://github.com/sindresorhus/github-markdown-css
@@ -1088,7 +1081,7 @@ a.gitment-editor-footer-tip:hover {
 
 .gitment-markdown pre code {
   display: inline;
-  max-width: auto;
+  max-width: initial;
   padding: 0;
   margin: 0;
   overflow: visible;

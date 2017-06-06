@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   context: path.join(__dirname, 'src'),
@@ -22,4 +22,4 @@ module.exports = {
     port: 3000,
     contentBase: './',
   },
-}
+};

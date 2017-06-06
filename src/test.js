@@ -1,17 +1,17 @@
-var Gitment = Gitment || require('./gitment')
+var Gitment = Gitment || require('./gitment');
 
-const config = window.config
+const config = window.config;
 
 if (!config) {
-  throw new Error('You need your own config to run this test.')
+  throw new Error('You need your own config to run this test.');
 }
 
-const gitment = new Gitment(config)
+const gitment = new Gitment(config);
 
-gitment.render('container')
+gitment.render('container');
 
-window.gitment = gitment
+window.gitment = gitment;
 
 try {
-  window.http = require('./utils').http
+  window.http = require('./utils').http;
 } catch (e) {}
